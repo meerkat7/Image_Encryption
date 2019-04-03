@@ -1,2 +1,2 @@
 # Image_Encryption
-This python code encrypts an image 
+This python code encrypts a grayscale image 
