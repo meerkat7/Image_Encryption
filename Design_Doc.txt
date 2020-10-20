@@ -1,0 +1,35 @@
+﻿                     CS F463 CRYPTOGRAPHY
+		     (First Semester 2018-2019)
+					
+            	  Design Document
+				
+Chaos Based Symmetric Image Encryption
+
+-->Aim:
+To implement chaos-based encryption model for bit-level image encryption. 
+
+-->Scope:
+The document can be used to understand the  implementation details of this model which ensures confusion and diffusion.
+
+Design Overview:
+
+1. Problem Description:
+To apply the concept of chaotic map - Arnold's cat map for the encryption an image to ensure the security of any image data.
+
+2. Technologies used:
+a)Programming Language: Python 3.7.0 
+b)Image is contained in ‘.jpeg’ file.
+
+3. Application Operation:
+	This algorithm implements permutations and diffusions at the pixel level so that confusion and diffusion are achieved. A permutation at the bit level not only changes the position of the pixel but also alters its value. Here we implement an image cryptosystem employing the Arnold cat map for bit-level permutation and the logistic map for diffusion.
+
+	The resultant encrypted image is stored in 'encrypted.jpeg'.
+
+
+-->Dependencies:
+1.PIL
+2.numpy
+3.matplotlib
+
+
+	
